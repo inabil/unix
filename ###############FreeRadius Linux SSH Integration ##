@@ -1,0 +1,16 @@
+###############FreeRadius Linux SSH Integration ################
+
+SSH Setting at client site
+
+/etc/SSH/sshd_config
+
+
+change the following settings as
+
+
+
+ChallengeResponseAuthentication yes
+
+UsePAM yes
+
+
